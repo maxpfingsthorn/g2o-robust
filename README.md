@@ -1,6 +1,6 @@
 # Robust Edge types for g2o
 
-This package provides edge types in g2o for use in robust optimization. Specifically, it contains:
+This package provides edge types in [g2o](https://github.com/RainerKuemmerle/g2o) for use in robust optimization. Specifically, it contains:
 
 - **MaxMixture** edges, implemented by Praktik Agarwal, from https://github.com/agpratik/max-mixture, licensed under the BSD
 - **SwitchableConstraints** edges, from the Vertigo package by Niko Suenderhauf, from https://svn.openslam.org/data/svn/vertigo/, licensed under the GPLv3
