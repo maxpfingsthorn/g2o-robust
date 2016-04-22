@@ -9,10 +9,13 @@ For now, it only provides robustified variants for EDGE_SE2 and EDGE_SE3:QUAT ty
 
 Syntax:
 
+```
 EDGE_*_ROBUST <vertices> <kernel name> <kernel delta> <base edge info>
+```
 
 e.g.:
+```
 EDGE_SE2_ROBUST 0 1 Cauchy 1.0 1 0 0 10 0 0 10 0 10
 ----TAG-------- -v- -kn--- -d- -----edge info------
-
+```
 See also example g2o files in the main directory.
