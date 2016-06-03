@@ -27,7 +27,7 @@
 #include "g2o/core/factory.h"
 #include "g2o/stuff/macros.h"
 
-#include "types_max_mixture.h"
+#include "types_max_mixture_original.h"
 
 
 namespace g2o {
