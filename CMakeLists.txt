@@ -63,7 +63,7 @@ FIND_PACKAGE(Eigen3 REQUIRED)
 include_directories(${G2O_INCLUDE_DIR} ${EIGEN3_INCLUDE_DIR})
 
 
-
+ADD_SUBDIRECTORY(MaxMixture)
 ADD_SUBDIRECTORY(SwitchableConstraints)
 ADD_SUBDIRECTORY(RobustifiedEdges)
 
